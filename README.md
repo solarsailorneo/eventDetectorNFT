@@ -1,5 +1,6 @@
-# Welcome to the NextJS wagmi starter template 👋
-Looking to get up and running with a Typescript / NextJS dApp as quickly as possible? You're in the right place! This repo serves as a minimal template for integrating the wagmi React hooks for Ethereum library with Typescript & NextJS. Due to its ease of customizability and extensibility, this template has been styled with the Tailwind CSS framework. Let's get to it!
+# NFT Transfer Detection 👋
+A front-end that prints transfer transactions by means of an input box where you can specify any contract.
+
 ### Check out the live demo 👉 [NextJS wagmi](https://nextjs-wagmi.vercel.app/)
 
 ## Get up and running in 3 simple steps:
@@ -27,14 +28,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 That's it, you're all set!
 
-## Resources
-To learn more about the packages used in this project, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [React Typescript Cheatsheet](https://react-typescript-cheatsheet.netlify.app/docs/basic/setup/) - helpful tips for using Typescript with React.
-- [wagmi Documentation](https://wagmi-xyz.vercel.app/) - learn about the wagmi React hooks for Ethereum.
-- [Tailwind CSS Documentation](https://tailwindcss.com/) - learn about the Tailwind CSS styling framework.
 
 ## Deploy on Vercel
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FSeth-McKilla%2Fnextjs-wagmi&env=NEXT_PUBLIC_INFURA_ID)
