@@ -4,12 +4,8 @@ import { useConnect, useAccount } from "wagmi";
 import { Button } from "..";
 import { MdOutlineAccountBalanceWallet } from "react-icons/md";
 
-interface Props {
-  open: boolean;
-  setOpen: (showWalletOptions: boolean) => void;
-}
 
-export default function WalletOptionsModal(props: Props) {
+export default function WalletOptionsModal(props) {
   const { open, setOpen } = props;
 
   const [{ data: connectData, loading: connectDataLoading, error }, connect] =

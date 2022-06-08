@@ -28,7 +28,7 @@ const connectors = ( { chainId }) => {
     }),
     new WalletLinkConnector({
       options: {
-        appName: "NextJS-wagmi",
+        appName: "TranferTracker",
         jsonRpcUrl: `${rpcUrl}/${infuraId}`,
       },
     }),
