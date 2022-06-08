@@ -72,6 +72,7 @@ const Home = () => {
     return () => {
       contract.removeAllListeners("Transfer")
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   function onSubmit(e) {
@@ -139,7 +140,7 @@ const Home = () => {
     return (
       <>
         <h1 className="mb-8 text-4xl font-bold">
-          Welcome to the NextJS wagmi template!
+          Welcome to my transfer tracker website!
         </h1>
         <Button
           loading={accountLoading}

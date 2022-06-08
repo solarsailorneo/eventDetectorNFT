@@ -1,29 +1,21 @@
 # NFT Transfer Detection
-A front-end that prints transfer transactions by means of an input box where you can specify any contract.
+A front-end that prints transfer transactions by means of an input box where you can specify any contract. I used the [WAGMI library](https://github.com/tmm/wagmi) as a baseline.
 
-### Check out the live demo 👉 [NextJS wagmi](https://nextjs-wagmi.vercel.app/)
+## Prereqs
+- Metamask Wallet or equivalent
+- Moralis Account
+- Nodejs and reactjs
 
-## Get up and running in 3 simple steps:
-
-### 1. Create an app using this repo as the template
-```bash
-npx create-next-app@latest -e https://github.com/Seth-McKilla/nextjs-wagmi
+## Setup Instructions (For Running Locally)
+1. First, clone this repo:
 ```
->Note: The above command automatically downloads and installs the dependencies so no "npm install" or "yarn add" required!
-
-### 2. Create a .env.local file within the root directory with the following environment variables
-```bash
-NEXT_PUBLIC_INFURA_ID=<insert infura id>
+git clone https://github.com/solarsailorneo/eventDetectorNFT.git
 ```
->Note: Grab an Infura ID from the [Infura website](https://infura.io/)
+2. You will need to obtain an infura ID and etherscan key and create an `.env` file in the project directory, and place the values in the file. The flags are: `NEXT_PUBLIC_INFURA_ID` and `ETHER_SCAN_KEY` respectively.
+3. Use `npm install` to install all dependencies.
 
-### 3. Start the local development environment
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Run Locally
+Use the `npm start dev` command in the project root directory.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-That's it, you're all set!
+## How to Use
+Type the contract you want to track on the input box and click listen. When transfers happen, you should see a transfer tag an abbreviation of both the `from` and `to` wallets.
