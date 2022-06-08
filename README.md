@@ -3,7 +3,6 @@ A front-end that prints transfer transactions by means of an input box where you
 
 ## Prereqs
 - Metamask Wallet or equivalent
-- Moralis Account
 - Nodejs and reactjs
 
 ## Setup Instructions (For Running Locally)
